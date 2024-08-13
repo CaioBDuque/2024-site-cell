@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -9,4 +11,16 @@
     --branco: #edf2f4ff;
     --vermelho-claro: #ef233cff;
     --vermelho: #d90429ff;
+    --fonte-titilo: "Bungee Tint", sans-serif;
+    --fonte-texto: "Roboto Condensed", sans-serif;
+}
+
+body{
+    background-color: var(--cinza);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titilo);
 }
