@@ -22,7 +22,7 @@ body{
 }
 
 .cabecalho{
-    background-color: var(--cinza);
+    background-color: var(--cinza-escuro);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,21 @@ body{
 }
 
 .cabecalho-img{
-    width: 10%;
+    width: 25%;
     border-radius: 100%;
+}
+
+.cabecalho-nav__link{
+    font-family: var(--fonte-titilo);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cinza-escuro);
+    margin-right: 36px;
+}
+
+.cabecalho-nav__link:hover{
+    color: var(--vermelh0-claro);
+    font-size: 30px;
+    transition: 0.5s;
+    text-shadow: 2px 2px var(--cinza-escuro);
 }
