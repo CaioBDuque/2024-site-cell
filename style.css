@@ -24,7 +24,7 @@ body{
 .cabecalho{
     background-color: var(--cinza-escuro);
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 12px;
 }
