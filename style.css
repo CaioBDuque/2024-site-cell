@@ -58,3 +58,33 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.principal-capa__titulo{
+    font-size: 35px;
+}
+
+.principal-capa__texto{
+    font-size: 30px;
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa__botao{
+    background-color: var(--cinza-escuro);
+    color: var(--cinza);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.principal-capa__botao:hover{
+    padding: 1.2em;
+    background-color: var(--branco);
+    color: var(--preto);
+    transition: 0.5s;
+}
