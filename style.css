@@ -121,7 +121,7 @@ body{
 }
 
 .propaganda__texto{
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 1em;
 }
 
@@ -135,4 +135,26 @@ body{
     width: 60%;
     border-radius: 30px;
     margin-left: 12em;
+}
+
+.dispositivos{
+    text-align: center;
+
+}
+
+.dispositivos__titulo{
+    font-family: var(--fonte-titilo);
+    font-size: 30px;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--preto);
 }
